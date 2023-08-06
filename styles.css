@@ -1,27 +1,41 @@
-.headertxt{
+body{
+    background-color: rgb(153, 153, 153);
+}
+
+.headertxt {
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
 
-.count{
+.counts-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.count {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .txtarea-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     resize: none;
 }
 
-.txtarea{
+.txtarea {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 240px;
-    height: 180px
+    height: 180px;
+    resize: none;
 }
