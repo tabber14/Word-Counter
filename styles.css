@@ -1,0 +1,27 @@
+.headertxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtarea-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: none;
+}
+
+.txtarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 180px
+}
